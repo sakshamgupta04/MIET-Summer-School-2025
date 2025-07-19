@@ -1,0 +1,57 @@
+TEMPLATE:
+    Template is a base of generic programming in C++.
+
+GENERIC PROGRAMMING:
+    Programming which is independent of data type is called generic programming.
+
+In C++, implementation of template is performed via two methods:
+    1. Generic Function
+    2. Generic Class
+
+STACK:
+    It is a linear data structure that follows the LIFO (Last In First Out) principle.
+    Stack has one end only.
+    It contains only one pointer pointing to the top most element of the stack.
+
+    Example:
+        Recursion
+        Do and Un-Do mechanism.
+
+    Stack Functions:
+        1. Push(): Use to store element in stack.
+        2. Pop(): Use to remove the element from the top of the stack.
+        3. Top(): Returns the element at the top of the stack without removing it.
+        4. empty(): Returns true if stack is empty otherwise false.
+        5. size(): Returns number of elements of stack.
+
+    Polished Notation:
+        This type of notation was introduced by the Polish mathematician Lukasiewicz.
+        - Polish notation in data structure tells us about different ways to write an arithematic expression.
+        - An arithematic expression contains 2 things:
+            1. Operator:
+                It is a symbol that represents a specific operation to be performed.
+                eg - +, -, *, /, ^, %
+            2. Operand:
+                Operand is a value or a variable on which an operation is performed by an Operator.
+                eg- 0 to 9, a to z, A to Z
+
+        - There are mainly three type of polish notation.
+        1. Infix Notation:
+            This polish notation in data structures states that the operator is written in between the operands.
+            eg- ( a + b ) x c ( a + b ) x C
+                a + b - c + d
+                ( a x b ) + ( c / d ) ( a x b )
+
+        2. Prefix Notation:
+            This notation in data structure states that the operator should be present as a prefix or before the operands.
+            eg- + a b
+                + - a b c + - a b c
+                x a b x a b
+
+        3. Postfix notation:
+            This notation in data structures states that the operator should be present as after the operands.
+            Postfix notation is a computer understandable format.
+            eg- a b -
+                a b / c d /
+                12 5 + 3 / 12 5 + 3 /
+                8 2 3 x + 8 2 3 x +
