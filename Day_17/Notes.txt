@@ -1,0 +1,4 @@
+Tree Traversing:
+    There are mainly two type of traversing ina tree:
+        1. Breadth First Search:
+                

@@ -1,0 +1,92 @@
+Sorting:
+    Arranging elements in increasing or decreasing order is called Sorting.
+        1. Selection sort:
+            Algorithm:
+                - Start from the first element.
+                - Find the smallest element in the unsorted part of the array
+                - Swap it with the first element of the unsorted part
+                - Move the boundary of the sorted part by one
+                - Repeat until the entire array is sorted.
+            Time Complexity:
+                - Best Case: O( n^2 )
+                - Avg Case: O( n^2 )
+                - Worst Case: O( n^2 )
+    
+        2. Bubble Sort:
+            Algorithm:
+                - Start from the first element
+                - Compare each pair of adjacent elements
+                - If the left element is greater , swap them
+                - Repeat the process for all elements
+                - After each pass,, the largest element bubbles to the end
+                - Continue for n-1 passes or until no swaps are needed.
+            Time complexity:
+                - Best Case: O( n )
+                - Avg Case: O( n^2 )
+                - Worst Case O( n^2 )
+
+        3. Insertion Sort:
+            Insertion Sort is a simple comparison-based sorting algorithm.
+            It build the final sorted array one element at a time, just like how you sort card in your hand.
+            Algorithm:
+                - Start from the second element (index 1).
+                - Compare it with the element before it.
+                - Shift the larger elements one position
+                - Insert the current element at its correct position
+            Complexity:
+                - Best Case: O( n )
+                - Avg Case: O( n^2 )
+                - Worst Case: O( n^2 )
+
+        4. Merge Sort:
+            Merge sort is a divide and conquer algorithm that:
+                - Divides the input array into two halves.
+                - Recursively sorts them.
+                - Merges the sorted halves to produce the final sorted array.
+
+            Algorithm:
+                - Divide the array into two halves until each subarray has 1 element.
+                - Conquer by recursively sorting the subarrays.
+                - Combine by merging two sorted arrays into one.
+            
+            Time Complexity:
+                - Best Case: O( n log n );
+                - Average Case: O( n log n );
+                - Worst Case: O( n log n );
+            
+            Space Complexity:
+                - O(n) in every case.
+
+        5. Quick Sort:
+            It is a divide and conquer sorting algorithm.
+            It picks an element as a pivot and partitios the array around the pivot.
+
+            Algorithms:
+                - Choose a pivot(usually the last element of the array).
+                - Partition the array:
+                    - Move all element smaller than pivot to the left.
+                    - Move all element greater than pivot to right.
+                - Place the pivot in this correct position.
+                - Recursively apply the same logic to the left and right subarrays.
+            
+            Time Complexity:
+                - Best Case: O( n log n );
+                - Average case: O( n log n );
+                - Worst Case: O( n^2 );
+
+            Space Complexity: O( log n );
+
+Tree:
+    Tree data structure is a hierarchical structure that consists of nodes connected by edges.
+    It is widely used abstract data type that simulates a hierarchical tree structure, with root value and subtrees of childrens.
+
+    Node: Each element isa tree is called a node. It contains a value or data.
+    Root: The topmost node in a tree is called the root. It is the onlyu node that has no parent.
+    Edge: The connection between two nodes is called an edge.
+    Child: A node that is directly connected to another node which moving away from the root is called child.
+    Parent: A node that has one or more child nodes is called a parent. 
+    Leaf: A node that does not have any child is called a leaf or terminal node.
+    Subtree: 
+    Depth:
+    Height:
+    Level:
